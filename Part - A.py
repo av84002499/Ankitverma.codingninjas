@@ -9,7 +9,7 @@ user_api_url = "https://dummyapi.io/data/v1/user"
 
 # Set up MongoDB connection
 client = pymongo.MongoClient("mongodb://localhost:27017/")
-db = client["your_database_name"]  # Replace 'your_database_name' with your actual database name
+db = client["database_name"]  # Replace 'your_database_name' with your actual database name
 users_collection = db["users"]
 
 # Define headers with app_id
